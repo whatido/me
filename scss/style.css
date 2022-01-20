@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Changa One';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../lib/xfu00W3wXn3QLUJXhzq42AHiuQ.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@keyframes tada {
+  0% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1); }
+  10%,
+	20% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate(-3deg);
+    transform: scale3d(0.9, 0.9, 0.9) rotate(-3deg); }
+  30%,
+	50%,
+	70%,
+	90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate(3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate(3deg); }
+  40%,
+	60%,
+	80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg); }
+  to {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1); } }
+body {
+  font-family: 'Changa One';
+  font-size: 24px;
+  color: #fff;
+  background-color: #000; }
+
+ol,
+ul,
+li {
+  list-style-type: none; }
+
+header {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999; }
+  header ol {
+    display: flex;
+    justify-content: space-between; }
+
+footer ol {
+  display: flex;
+  justify-content: space-between; }
+
+.menu {
+  display: flex;
+  margin-right: 124px; }
+  .menu li {
+    padding: 10px 15px; }
+    .menu li a {
+      font-size: 24px;
+      color: #FFF;
+      text-decoration: none; }
+  .menu li:hover {
+    animation-duration: .75s;
+    animation-name: tada; }
+
+.welcome {
+  height: 100vh; }
+
+.whatido, .portfolio {
+  display: flex;
+  width: 100%;
+  justify-content: center; }
+  .whatido li, .portfolio li {
+    margin: 10px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,30 @@
+.menu {
+	display: flex;
+	margin-right: 124px;
+
+	li {
+		padding: 10px 15px;
+
+		a {
+			font-size: 24px;
+			color: #FFF;
+			text-decoration: none;
+		}
+
+	}
+    li:hover {
+        animation-duration: .75s;
+        animation-name: tada;
+    }
+}
+.welcome {
+	height: 100vh;
+}
+.whatido, .portfolio {
+	display: flex;
+    width: 100%;
+    justify-content: center;
+	li {
+		margin: 10px;
+	}
+}

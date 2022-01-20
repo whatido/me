@@ -1,0 +1,31 @@
+body {
+	font-family: 'Changa One';
+	font-size: 24px;
+	color: #fff;
+	background-color: #000;
+}
+
+ol,
+ul,
+li {
+	list-style-type: none;
+}
+
+header {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+    z-index: 999;
+	ol {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+footer {
+	ol {
+		display: flex;
+		justify-content: space-between;
+	}
+}
