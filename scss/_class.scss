@@ -8,6 +8,7 @@
 	margin-right: 124px;
 	@include Responsive(SM) {
 		margin-right: 0;
+		justify-content: center;
 	}
 	li {
 		padding: 10px 15px;

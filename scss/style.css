@@ -101,7 +101,8 @@ button:hover {
   margin-right: 124px; }
   @media only screen and (max-width: 768px) {
     .menu {
-      margin-right: 0; } }
+      margin-right: 0;
+      justify-content: center; } }
   .menu li {
     padding: 10px 15px; }
     .menu li a {
