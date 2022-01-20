@@ -1,7 +1,14 @@
+.logo {
+	@include Responsive(XS) {
+		text-align: center;
+	}
+}
 .menu {
 	display: flex;
 	margin-right: 124px;
-
+	@include Responsive(SM) {
+		margin-right: 0;
+	}
 	li {
 		padding: 10px 15px;
 
@@ -9,6 +16,9 @@
 			font-size: 24px;
 			color: #FFF;
 			text-decoration: none;
+			@include Responsive(XS) {
+				font-size: 12px;
+			}
 		}
 
 	}
@@ -27,4 +37,7 @@
 	li {
 		margin: 10px;
 	}
+}
+input {
+	margin: 5px 0;
 }
